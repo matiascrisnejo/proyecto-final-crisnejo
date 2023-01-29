@@ -1,0 +1,126 @@
+
+
+
+
+.bannerContacto{
+    width: 100%;
+    height: 200px;
+    background-image: url(../assert/laptop-in-coworking-space-wth-schedule.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0.8);
+        h1{
+            color: $colorDeTitulo;
+            font-size: 20px;
+            font-family: $tipoDeLetra;
+            background-position: center;
+            text-align: center;
+            letter-spacing: 5px;
+            padding: 80px;
+        }
+}
+
+
+.formulario{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+        form{
+            flex-grow: 1;
+            max-width: 50%;
+            width: 200px;
+            padding-top: 5px;
+            //padding-left: 150px;
+            margin-left: 45px;
+            margin-top: 45px;
+            margin-bottom: 45px;
+            
+        }
+            input{
+                
+                width: 75%;
+                margin-bottom: 20px;
+                padding: 2px;
+                border: 1px solid $colorDeParrafo;
+                border-radius: 5px;
+            }
+            textarea{
+                width: 75%;
+                margin-bottom: 20px;
+                padding: 7px;
+                resize: vertical;
+                max-height: 100px;
+                min-height: 75px;
+                border: 1px solid $colorDeParrafo;
+                border-radius: 10px;
+            }
+            label{
+                color: $colorDeParrafo;
+                font-size: 15px;
+                font-family: $tipoDeLetra;
+                background-position: center;
+                letter-spacing: 2px;
+                padding: 2px;
+                display: block;
+                width: 100%;
+            }
+}
+
+input[type="submit"]{
+    background-color: $colorDeBoton;
+    color: #ffffff;
+    border: none;
+    font-family: $tipoDeLetra;
+}
+
+input[type="reset"]{
+    background-color: $colorDeBoton;
+    color: #ffffff;
+    border: none;
+    font-family: $tipoDeLetra;
+}
+
+.contacto{
+        flex-grow: 1;
+        max-width: 100%;
+        margin-top: 8%;
+            h2{
+                color: $colorDeParrafo;
+                font-size: 20px;
+                font-family: $tipoDeLetra;
+                background-position: center;
+                text-align: center;
+                letter-spacing: 2px;
+                margin-bottom: 2%;
+                
+            }
+            p{
+                color: $colorDeParrafo;
+                font-size: 15px;
+                font-family: $tipoDeLetra;
+                background-position: center;
+                text-align: center;
+                letter-spacing: 2px;
+                margin-bottom: 5%;
+            }
+            h3{
+                color: $colorDeParrafo;
+                font-size: 20px;
+                font-family: $tipoDeLetra;
+                background-position: center;
+                text-align: center;
+                letter-spacing: 2px;
+                margin-bottom: 2%;
+            }
+            .parrafo{
+                color: $colorDeParrafo;
+                font-size: 15px;
+                font-family: $tipoDeLetra;
+                background-position: center;
+                text-align: center;
+                letter-spacing: 2px;
+                //padding: 150px 100px;
+            }
+}

@@ -1,0 +1,99 @@
+
+
+
+@media(max-width:768px){
+
+    .logo{
+        img{
+        width: 95px;
+        padding: 7px;
+        }
+    }
+    .navBar{
+        gap: 5px;
+            li{
+                list-style: none;
+                a{
+                    font-size: 15px;
+                }
+            }
+    
+    }
+
+    .titulo{
+        font-size: 15px;
+    }
+
+    .fotoYText{
+        display: grid;
+        flex-wrap: 2;
+            .fotoPerfil{
+                img{
+                    background-position: center;
+                    margin: auto;
+                    margin-left: 12%;
+                    margin-right: 10%;
+                }
+            }
+            .textPerfil{
+                width: 100%;
+            }
+    }
+    
+
+    .planes{
+        display: grid;
+        justify-content: center;
+        height: 1500px;
+            .plan1{
+                max-width: 100%;
+                img{
+                    margin-bottom: 50px;
+                }
+            }
+            .plan2{
+                max-width: 100%;
+                img{
+                    margin-bottom: 50px;
+                }
+            }
+            .plan3{
+                max-width: 100%;
+                
+            }
+    }
+    .recetas{
+        display: grid;
+        height: 1000px;
+        .dulce{
+            max-width: 100%;
+        }
+        .salada{
+            max-width: 100%;
+        }
+    }
+    .formulario{
+        display: grid;
+        height: 1000px;
+        .form{
+            max-width: 100%;
+            width: 80%;
+            padding: 0px 0px 0px 0px;
+            margin-left: 30%;
+            margin-right: 2%;
+
+                input{
+                    width: 50%;
+                }
+                textarea{
+                    width: 50%;
+                }
+        }
+        .contacto{
+            max-width: 100%;
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}

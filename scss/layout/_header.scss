@@ -1,0 +1,37 @@
+
+
+header{
+    .encabezado{
+        background-color: $colorDeFondo;
+        width: 100%;
+        height: 100px;
+        justify-content: space-between;
+        display: flex;
+        
+    }
+}
+
+.logo{
+    img{width: 100px;
+    padding: 15px;}
+}
+
+.navBar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-top: 35px;
+    padding-right: 10px;
+    
+    li{
+        list-style: none;
+        padding: 5px;
+        a{
+            text-decoration: none;
+            color: $colorDeTitulo;
+            font-size: 20px;
+            font-family: $tipoDeLetra;}
+
+    }
+}
+

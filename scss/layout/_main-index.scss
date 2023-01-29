@@ -1,0 +1,26 @@
+main{
+    background-color: $colorDeFondo;
+}
+
+.fondo{
+    
+    img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        display: flex;
+    }
+}
+
+.titulo{
+    h1{
+        color: $colorDeTitulo;
+        font-size: 20px;
+        font-family: $tipoDeLetra;
+        background-position: center;
+        text-align: center;
+        letter-spacing: 5px;
+
+    }
+}

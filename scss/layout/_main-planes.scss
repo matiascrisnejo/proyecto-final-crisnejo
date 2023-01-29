@@ -1,0 +1,113 @@
+
+
+
+
+.bannerPlanes {
+    width: 100%;
+    height: 200px;
+    background-image: url(../assert/food-photography-different-fruits-and-vegetables-on-white-wooden-table-surface.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0.8);
+
+    h1 {
+        color: $colorDeTitulo;
+        font-size: 20px;
+        font-family: $tipoDeLetra;
+        background-position: center;
+        text-align: center;
+        letter-spacing: 5px;
+        padding: 80px;
+    }
+}
+
+.planes{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+        .plan1{
+            flex-grow: 1;
+            max-width: 33.33%;
+                h2{
+                    color: $colorDeTitulo;
+                    font-size: 20px;
+                    font-family: $tipoDeLetra;
+                    background-position: center;
+                    text-align: center;
+                    letter-spacing: 5px;
+                    padding: 0px;
+                }
+                p{
+                    color: $colorDeParrafo;
+                    font-size: 15px;
+                    font-family: $tipoDeLetra;
+                    background-position: center;
+                    text-align: center;
+                    letter-spacing: 4px;
+                    padding: 10px;
+                }
+                img{
+                    display: block;
+                    margin: auto;
+                    padding-top: 25%;
+                }
+        }
+        .plan2{
+            flex-grow: 1;
+            max-width: 33.33%;
+                h2{
+                    color: $colorDeTitulo;
+                    font-size: 20px;
+                    font-family: $tipoDeLetra;
+                    background-position: center;
+                    text-align: center;
+                    letter-spacing: 5px;
+                    padding: 0px;
+                }
+                p{
+                    color: $colorDeParrafo;
+                    font-size: 15px;
+                    font-family: $tipoDeLetra;
+                    background-position: center;
+                    text-align: center;
+                    letter-spacing: 4px;
+                    padding: 10px;
+                }
+                img{
+                    display: block;
+                    margin: auto;
+                    padding-top: 25%;
+                }
+        }
+        .plan3{
+            flex-grow: 1;
+            max-width: 33.33%;
+                h2{
+                    color: $colorDeTitulo;
+                    font-size: 20px;
+                    font-family: $tipoDeLetra;
+                    background-position: center;
+                    text-align: center;
+                    letter-spacing: 5px;
+                    padding: 0px;
+                }
+                p{
+                    color: $colorDeParrafo;
+                    font-size: 15px;
+                    font-family: $tipoDeLetra;
+                    background-position: center;
+                    text-align: center;
+                    letter-spacing: 4px;
+                    padding: 10px;
+                }
+                img{
+                    display: block;
+                    margin: auto;
+                    padding-top: 25%;
+                }
+        }
+
+}
+

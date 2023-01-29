@@ -1,0 +1,517 @@
+/*@import + ruta*/
+@import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header .encabezado {
+  background-color: #faeee7;
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+  display: flex; }
+
+.logo img {
+  width: 100px;
+  padding: 15px; }
+
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-top: 35px;
+  padding-right: 10px; }
+  .navBar li {
+    list-style: none;
+    padding: 5px; }
+    .navBar li a {
+      text-decoration: none;
+      color: #33272a;
+      font-size: 20px;
+      font-family: "Carrois Gothic SC", sans-serif; }
+
+main {
+  background-color: #faeee7; }
+
+.fondo img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  display: flex; }
+
+.titulo h1 {
+  color: #33272a;
+  font-size: 20px;
+  font-family: "Carrois Gothic SC", sans-serif;
+  background-position: center;
+  text-align: center;
+  letter-spacing: 5px; }
+
+footer {
+  background-color: #FFC6C7;
+  width: 100%;
+  height: 120px;
+  justify-content: center;
+  display: flex; }
+  footer .logoRedes img {
+    width: 110px;
+    padding: 40px; }
+
+main .bannerNosotros {
+  width: 100%;
+  height: 200px;
+  background-image: url(../assert/top-view-of-fresh-foods-and-spices-vegetables-for-cooking-on-white-table.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(0.8); }
+
+main h1 {
+  color: #33272a;
+  font-size: 20px;
+  font-family: "Carrois Gothic SC", sans-serif;
+  background-position: center;
+  text-align: center;
+  letter-spacing: 5px;
+  padding: 80px; }
+
+.fotoYText {
+  display: flex;
+  width: 100%; }
+  .fotoYText .fotoPerfil img {
+    width: 75%;
+    height: 420px;
+    margin: 50px;
+    padding-bottom: 1px;
+    padding-top: 50px;
+    padding-left: px; }
+  .fotoYText .textPerfil {
+    width: 50%;
+    color: #33272a;
+    font-size: 20px;
+    font-family: "Carrois Gothic SC", sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 80px; }
+
+.bannerPlanes {
+  width: 100%;
+  height: 200px;
+  background-image: url(../assert/food-photography-different-fruits-and-vegetables-on-white-wooden-table-surface.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(0.8); }
+  .bannerPlanes h1 {
+    color: #33272a;
+    font-size: 20px;
+    font-family: "Carrois Gothic SC", sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 80px; }
+
+.planes {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap; }
+  .planes .plan1 {
+    flex-grow: 1;
+    max-width: 33.33%; }
+    .planes .plan1 h2 {
+      color: #33272a;
+      font-size: 20px;
+      font-family: "Carrois Gothic SC", sans-serif;
+      background-position: center;
+      text-align: center;
+      letter-spacing: 5px;
+      padding: 0px; }
+    .planes .plan1 p {
+      color: #594a4e;
+      font-size: 15px;
+      font-family: "Carrois Gothic SC", sans-serif;
+      background-position: center;
+      text-align: center;
+      letter-spacing: 4px;
+      padding: 10px; }
+    .planes .plan1 img {
+      display: block;
+      margin: auto;
+      padding-top: 25%; }
+  .planes .plan2 {
+    flex-grow: 1;
+    max-width: 33.33%; }
+    .planes .plan2 h2 {
+      color: #33272a;
+      font-size: 20px;
+      font-family: "Carrois Gothic SC", sans-serif;
+      background-position: center;
+      text-align: center;
+      letter-spacing: 5px;
+      padding: 0px; }
+    .planes .plan2 p {
+      color: #594a4e;
+      font-size: 15px;
+      font-family: "Carrois Gothic SC", sans-serif;
+      background-position: center;
+      text-align: center;
+      letter-spacing: 4px;
+      padding: 10px; }
+    .planes .plan2 img {
+      display: block;
+      margin: auto;
+      padding-top: 25%; }
+  .planes .plan3 {
+    flex-grow: 1;
+    max-width: 33.33%; }
+    .planes .plan3 h2 {
+      color: #33272a;
+      font-size: 20px;
+      font-family: "Carrois Gothic SC", sans-serif;
+      background-position: center;
+      text-align: center;
+      letter-spacing: 5px;
+      padding: 0px; }
+    .planes .plan3 p {
+      color: #594a4e;
+      font-size: 15px;
+      font-family: "Carrois Gothic SC", sans-serif;
+      background-position: center;
+      text-align: center;
+      letter-spacing: 4px;
+      padding: 10px; }
+    .planes .plan3 img {
+      display: block;
+      margin: auto;
+      padding-top: 25%; }
+
+.bannerRecetas {
+  width: 100%;
+  height: 200px;
+  background-image: url(../assert/top-view-on-recipe-book-still-life-concept.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(0.8); }
+  .bannerRecetas h1 {
+    color: #33272a;
+    font-size: 20px;
+    font-family: "Carrois Gothic SC", sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 80px; }
+
+.recetas {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap; }
+  .recetas .dulce {
+    flex-grow: 1;
+    max-width: 50%; }
+    .recetas .dulce img {
+      display: block;
+      margin: auto;
+      padding-top: 15%; }
+    .recetas .dulce .textoDulce {
+      color: #594a4e;
+      font-size: 12px;
+      font-family: "Carrois Gothic SC", sans-serif;
+      background-position: center;
+      text-align: center;
+      letter-spacing: 5px;
+      padding: 100px 0px 0px 0px; }
+      .recetas .dulce .textoDulce li {
+        list-style: none; }
+  .recetas .salada {
+    flex-grow: 1;
+    max-width: 50%; }
+    .recetas .salada img {
+      display: block;
+      margin: auto;
+      padding-top: 15%; }
+    .recetas .salada .textoSalado {
+      color: #594a4e;
+      font-size: 12px;
+      font-family: "Carrois Gothic SC", sans-serif;
+      background-position: center;
+      text-align: center;
+      letter-spacing: 5px;
+      padding: 100px 0px 0px 0px; }
+      .recetas .salada .textoSalado li {
+        list-style: none; }
+
+.bannerContacto {
+  width: 100%;
+  height: 200px;
+  background-image: url(../assert/laptop-in-coworking-space-wth-schedule.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(0.8); }
+  .bannerContacto h1 {
+    color: #33272a;
+    font-size: 20px;
+    font-family: "Carrois Gothic SC", sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 80px; }
+
+.formulario {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap; }
+  .formulario form {
+    flex-grow: 1;
+    max-width: 50%;
+    width: 200px;
+    padding-top: 5px;
+    margin-left: 45px;
+    margin-top: 45px;
+    margin-bottom: 45px; }
+  .formulario input {
+    width: 75%;
+    margin-bottom: 20px;
+    padding: 2px;
+    border: 1px solid #594a4e;
+    border-radius: 5px; }
+  .formulario textarea {
+    width: 75%;
+    margin-bottom: 20px;
+    padding: 7px;
+    resize: vertical;
+    max-height: 100px;
+    min-height: 75px;
+    border: 1px solid #594a4e;
+    border-radius: 10px; }
+  .formulario label {
+    color: #594a4e;
+    font-size: 15px;
+    font-family: "Carrois Gothic SC", sans-serif;
+    background-position: center;
+    letter-spacing: 2px;
+    padding: 2px;
+    display: block;
+    width: 100%; }
+
+input[type="submit"] {
+  background-color: #ff8ba7;
+  color: #ffffff;
+  border: none;
+  font-family: "Carrois Gothic SC", sans-serif; }
+
+input[type="reset"] {
+  background-color: #ff8ba7;
+  color: #ffffff;
+  border: none;
+  font-family: "Carrois Gothic SC", sans-serif; }
+
+.contacto {
+  flex-grow: 1;
+  max-width: 100%;
+  margin-top: 8%; }
+  .contacto h2 {
+    color: #594a4e;
+    font-size: 20px;
+    font-family: "Carrois Gothic SC", sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 2%; }
+  .contacto p {
+    color: #594a4e;
+    font-size: 15px;
+    font-family: "Carrois Gothic SC", sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 5%; }
+  .contacto h3 {
+    color: #594a4e;
+    font-size: 20px;
+    font-family: "Carrois Gothic SC", sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 2%; }
+  .contacto .parrafo {
+    color: #594a4e;
+    font-size: 15px;
+    font-family: "Carrois Gothic SC", sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 2px; }
+
+@media (max-width: 768px) {
+  .logo img {
+    width: 95px;
+    padding: 7px; }
+  .navBar {
+    gap: 5px; }
+    .navBar li {
+      list-style: none; }
+      .navBar li a {
+        font-size: 15px; }
+  .titulo {
+    font-size: 15px; }
+  .fotoYText {
+    display: grid;
+    flex-wrap: 2; }
+    .fotoYText .fotoPerfil img {
+      background-position: center;
+      margin: auto;
+      margin-left: 12%;
+      margin-right: 10%; }
+    .fotoYText .textPerfil {
+      width: 100%; }
+  .planes {
+    display: grid;
+    justify-content: center;
+    height: 1500px; }
+    .planes .plan1 {
+      max-width: 100%; }
+      .planes .plan1 img {
+        margin-bottom: 50px; }
+    .planes .plan2 {
+      max-width: 100%; }
+      .planes .plan2 img {
+        margin-bottom: 50px; }
+    .planes .plan3 {
+      max-width: 100%; }
+  .recetas {
+    display: grid;
+    height: 1000px; }
+    .recetas .dulce {
+      max-width: 100%; }
+    .recetas .salada {
+      max-width: 100%; }
+  .formulario {
+    display: grid;
+    height: 1000px; }
+    .formulario .form {
+      max-width: 100%;
+      width: 80%;
+      padding: 0px 0px 0px 0px;
+      margin-left: 30%;
+      margin-right: 2%; }
+      .formulario .form input {
+        width: 50%; }
+      .formulario .form textarea {
+        width: 50%; }
+    .formulario .contacto {
+      max-width: 100%; }
+      .formulario .contacto p {
+        font-size: 15px; } }
+
+@media (max-width: 400px) {
+  .logo img {
+    width: 90px;
+    padding: 7px;
+    margin-left: 1px;
+    margin-top: 5px; }
+  .navBar {
+    gap: 2px;
+    justify-content: center;
+    margin-left: 2px; }
+    .navBar li {
+      padding: 2px; }
+      .navBar li a {
+        text-decoration: none;
+        font-size: 12px; }
+  .titulo {
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 5px; }
+  .fotoYText {
+    display: grid; }
+    .fotoYText .fotoPerfil {
+      display: flex;
+      background-position: center;
+      margin: auto;
+      margin-left: 6%;
+      margin-right: 8%; }
+  .textPerfil {
+    width: 100%;
+    margin: auto;
+    margin-right: 10%;
+    background-position: center;
+    text-align: none;
+    padding: 1% 1% 1% 1%;
+    font-size: 18px; }
+    .textPerfil h2 {
+      margin-left: 1px; }
+  .bannerPlanes {
+    height: 290px; }
+  .planes {
+    display: grid;
+    justify-content: center;
+    height: 1500px; }
+    .planes .plan1 {
+      max-width: 100%; }
+      .planes .plan1 img {
+        margin-bottom: 50px; }
+      .planes .plan1 h2 {
+        margin: auto; }
+      .planes .plan1 p {
+        margin: auto;
+        margin-left: 10%;
+        margin-right: 10%; }
+    .planes .plan2 {
+      max-width: 100%; }
+      .planes .plan2 img {
+        margin-bottom: 50px; }
+      .planes .plan2 h2 {
+        margin: auto; }
+      .planes .plan2 p {
+        margin: auto;
+        margin-left: 15%;
+        margin-right: 15%; }
+    .planes .plan3 {
+      max-width: 100%; }
+      .planes .plan3 h2 {
+        margin: auto; }
+      .planes .plan3 p {
+        font-size: 10px;
+        margin: auto;
+        margin-left: 1%;
+        margin-right: 2%; }
+  .recetas {
+    display: grid;
+    height: 1000px; }
+    .recetas .dulce {
+      max-width: 100%; }
+    .recetas .salada {
+      max-width: 100%; }
+  .formulario {
+    display: grid;
+    height: 700px; }
+    .formulario .form {
+      max-width: 100%;
+      width: 100%;
+      padding: 0px 0px 0px 0px;
+      margin-left: 40px; }
+      .formulario .form input {
+        width: 80%;
+        margin-bottom: 2%; }
+      .formulario .form textarea {
+        width: 80%; }
+    .formulario .contacto {
+      max-width: 100%; }
+      .formulario .contacto h2 {
+        font-size: 15px;
+        background-position: none;
+        text-align: none;
+        margin-bottom: 5%; }
+      .formulario .contacto p {
+        font-size: 12px; }
+      .formulario .contacto h3 {
+        font-size: 15px; }
+      .formulario .contacto .parrafo {
+        margin-bottom: 5%; } }
