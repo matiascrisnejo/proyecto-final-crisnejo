@@ -1,4 +1,4 @@
-#NutricionSaludable
+# NutricionSaludable
 >Proyecto destinado a asesorias nutricionales saludables.
 
 ----
@@ -13,7 +13,7 @@
 ## Herramientas Utilizadas
 -HTML
 -CSS
-- SASS
+-SASS
 
 ## Software utilizado
 
